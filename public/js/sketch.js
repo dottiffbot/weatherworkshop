@@ -1,7 +1,7 @@
 var weatherJSON;
 
 function preload(){
-weatherJSON = loadJSON("http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=417941f8eb6ef816314244950431636b");
+weatherJSON = loadJSON("https://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=417941f8eb6ef816314244950431636b");
 
 }
 
